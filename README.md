@@ -1,2 +1,6 @@
 # XamarinSideMenu
- Um aplicativo android com um menu lateral que utiliza animações e sub-menus.
+Aprofundando os estudos em C# fui buscar conhecer mais do framework Xamarin, cuja proposta de oferecer o desenvolvimento de aplicativos mobile para multiplataformas, aproveitando da mesma estrutura lógica e oferecendo uma interface de usuário nativa de cada plataforma me chamou muita atenção. Para solidificar os estudos, desenvolvi está aplicação para colocar em prática os conceitos aprendidos do framework.
+
+O aplicativo utiliza da estrutura da Master Detail Page do Xamarin.Forms, onde o framework oferece uma estrutura para criação de um menu lateral, permitindo uma navegação entre as páginas da aplicação. O menu lateral conta com um cabeçalho onde é possível exibir um logo ou perfil de usuário, seguindo de um campo para exibição do nome da aplicação ou do usuário e outro campo para exibição de um status. Abaixo os menus contam com ícones e cores para sinalizar o menu ativo no momento além da possibilidade de criação de submenus que contam com animações assim que abertos.
+
+Desenvolvi três classes que formam a estrutura necessária para criação deste menu lateral onde a implementação do menu se torna muito prática, realizada toda através da instanciação de objetos da classe MenuModel e adicionando o menu como conteúdo da MasterPage do menu utilizando o método CreateMenu da classe MenuMaster. 
